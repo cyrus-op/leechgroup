@@ -7,9 +7,9 @@ import asyncio
 # Initialize bot
 app = Client(
     "Bot",
-    bot_token=CONFIG.BOT_TOKEN,
-    api_id=CONFIG.API_ID,
-    api_hash=CONFIG.API_HASH,
+    bot_token=CONFIG.BOT_TOKEN, 1387376503:AAHKS2WtYHvYyB-8yrZ5SVQJurunez0g8EQ 
+    api_id=CONFIG.API_ID, 2526751
+    api_hash=CONFIG.API_HASH, 9d95cd9e9bede6332e1da19276d9ad63
     workdir=os_path_join(CONFIG.ROOT, CONFIG.WORKDIR),
     plugins=dict(root="bot/handlers")
 )
