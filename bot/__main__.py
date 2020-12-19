@@ -36,7 +36,7 @@ if CONFIG.BOT_PASSWORD:
     app.add_handler(
         MessageHandler(
             wrong_room_handler.func,
-            filters = lambda msg: not msg.chat.id in STATUS.CHAT_ID
+            filters = lambda msg: not msg.chat.id in STATUS.CHAT_ID, -1001431129160
         )
     )
 
